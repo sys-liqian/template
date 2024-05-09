@@ -1,0 +1,14 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    url: jdbc:postgresql://10.122.166.115:5432/liqian35?useSSL=false
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
